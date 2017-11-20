@@ -128,7 +128,7 @@ def num_points_scored(player)
             binding.pry
             points = stats[2]
           end
-binding.pry
+# binding.pry
         end
       end
     end
