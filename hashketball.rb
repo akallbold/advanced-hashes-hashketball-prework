@@ -132,6 +132,13 @@ def num_points_scored(player)
       end
     end
   end
+  puts loc
+  puts key
+  puts key2
+  puts value
+  puts name
+  puts stats
+
   points
 end
 
