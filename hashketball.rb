@@ -125,6 +125,7 @@ def num_points_scored(player)
       if key2 == "players:"
         value.each do |name,stats|
           if name == player
+            binding.pry
             points = stats[2]
           end
 binding.pry
