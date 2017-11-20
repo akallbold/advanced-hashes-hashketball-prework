@@ -119,7 +119,7 @@ def game_hash
 end
 
 def num_points_scored(player)
-  points=0
+  points=10
   game_hash.each do |loc,key|
     key.each do |key2,value|
       if key2 == "players:"
