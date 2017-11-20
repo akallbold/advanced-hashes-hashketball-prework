@@ -134,3 +134,5 @@ binding.pry
   end
   points
 end
+
+num_points_scored("Jeff Adrien")
