@@ -122,7 +122,7 @@ def num_points_scored(player)
   points=0
   game_hash.each do |loc,key|
     key.each do |key2,value|
-      if key2 == players:
+      if key2 == [players:]
         value.each do |name,stats|
           if name == player
             points = stats[2]
